@@ -64,4 +64,10 @@
         "key": "ctrl+shift+w",
         "command": "workbench.panel.chat.view.copilot.focus"
     },
+    {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+    },
+
 ]
