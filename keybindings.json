@@ -42,13 +42,13 @@
     },
     {
         "key": "ctrl+shift+z",
-        "command" : "workbench.action.toggleZenMode",
+        "command": "workbench.action.toggleZenMode",
         "when": "vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+shift+e",
         "command": "workbench.view.explorer",
-        "when" : "vim.mode != 'Insert'"
+        "when": "vim.mode != 'Insert'"
     },
     {
         "key": "ctrl+a",
@@ -65,9 +65,8 @@
         "command": "workbench.panel.chat.view.copilot.focus"
     },
     {
-    "key": "ctrl+enter",
-    "command": "-github.copilot.generate",
-    "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
-    },
-
+        "key": "alt+enter",
+        "command": "explorer.rename",
+        "when": "fileExplorerFocus"
+    }
 ]
