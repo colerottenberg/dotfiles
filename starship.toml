@@ -1,0 +1,29 @@
+[aws]
+# Disabled
+disabled = true
+
+[battery]
+full_symbol = "󰁹 "
+charging_symbol = "󰁺 "
+discharging_symbol = "󰁻 "
+
+[conda]
+symbol = ""
+style = "bold green"
+format = " [$symbol($environment)]($style)"
+
+
+[rust]
+format = "via [$symbol($version )]($style)"
+symbol = "🦀 "
+style = "bold red"
+
+[cmake]
+format = "via [$symbol($version)]($style)"
+symbol = "△ "
+
+[username]
+style_user = "bold blue"
+style_root = "bold red"
+disabled = false
+show_always = true
